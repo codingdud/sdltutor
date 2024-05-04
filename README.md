@@ -1,31 +1,45 @@
-## Introduction to C++ Libraries for Beginners
+# SDL Tutor
 
-### Why Use Libraries?
+Welcome to SDL Tutor, a beginner-friendly tutorial series aimed at helping you learn the basics of game development using the Simple DirectMedia Layer (SDL) library.
 
-When writing code in C++, especially for larger projects, managing all the code in a single file can become cumbersome and time-consuming. To address this issue, we use libraries. Libraries are pre-compiled code or parts of code that have been compiled for specific tasks or functionalities.
+## Introduction
 
-### Structure of a C++ Library
+SDL is a powerful cross-platform development library designed to provide low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It's commonly used for developing games, multimedia applications, and emulators.
 
-A C++ library typically consists of:
+SDL Tutor aims to guide you through the fundamental concepts of SDL programming, starting from setting up your development environment to creating your first simple game.
 
-- **Header Files** (`.h` or `.hpp`): These files contain declarations that programmers use in their code. They provide interfaces to the functionality provided by the library.
-  
-- **Binary Files**: These files are pre-compiled and come in two forms:
-  - **Dynamic Link Libraries** (`.dll`): These are shared libraries that are loaded at runtime by executable files. They contain code that can be shared among multiple programs.
-  - **Static Libraries** (`.lib`): Unlike dynamic libraries, static libraries are linked at compile-time. They are directly embedded into the final executable file, containing all the necessary code to run independently.
+## Getting Started
 
-### Understanding .dll and .lib Files
+To get started with SDL Tutor, follow these steps:
 
-- **.dll Files**: Dynamic Link Libraries are collections of code and data that can be used by multiple programs at the same time. They are loaded into memory when needed at runtime, allowing for more efficient memory usage and sharing of resources.
-  
-- **.lib Files**: Static Libraries are collections of object code that are linked with and become part of the executable file. They provide a way to package code for reuse without the overhead of dynamic linking. The resulting executable file contains all the necessary code from the static library.
+1. **Installation**: Ensure you have SDL installed on your system. You can download SDL from the official website [here](https://www.libsdl.org/download-2.0.php).
 
-### Benefits of Using Libraries
+2. **Development Environment Setup**: Set up your development environment. We recommend using an IDE like Visual Studio, Code::Blocks, or any text editor of your choice along with a compiler like MinGW for Windows or GCC for Unix-like systems.
 
-- **Code Reusability**: Libraries allow developers to reuse code across different projects, saving time and effort in writing and maintaining code.
-  
-- **Modularity**: By breaking code into smaller, manageable modules, libraries promote modular programming, making it easier to understand, debug, and maintain the codebase.
-  
-- **Performance**: Properly designed and optimized libraries can improve the performance of applications by providing efficient implementations of common tasks.
+3. **Clone Repository**: Clone this repository to your local machine using the following command:
+    ```
+    git clone https://github.com/your-username/sdl-tutor.git
+    ```
 
-By utilizing libraries in C++, developers can create more maintainable, scalable, and efficient codebases, facilitating the development of complex software systems.
+4. **Navigate to the Project Directory**: Move into the project directory:
+    ```
+    cd sdl-tutor
+    ```
+
+5. **Explore the Lessons**: Each lesson is organized into separate directories. Start with `lesson-01` and proceed sequentially to grasp the concepts effectively.
+
+6. **Compile and Run**: Follow the instructions provided in each lesson's README to compile and run the sample code.
+
+## Contributing
+
+If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are highly welcomed and appreciated.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the SDL community for creating and maintaining such a fantastic library, and to all the contributors whose tutorials and resources have inspired this project.
+
+Happy coding!
